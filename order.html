@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--For appearence of webpage--> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+
+    <!--To ensure sizing on different devices are the same--> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UFT-8">
+    <title>Virtue Green</title>
+
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="index.html"><i class="fas fa-info-circle"></i> Home</a>
+        <a href="menu.html"><i class="fas fa-utensils"></i> Menu</a>
+        <a href="about.html"><i class="fas fa-info-circle"></i> About Us</a>
+        <a href="mission.html"><i class="fas fa-seedling"></i> Our Mission</a>
+        <a href="reservation.html" class="split"><i class="fas fa-chair"></i> Reservation</a>
+        <a href="order.html" class="split"><i class="fas fa-shopping-cart"></i> Order</a>
+    </div>
+
+    <h1>Order Food</h1>
+
+    <div id="food_chart">
+        <h3>Salads</h3>
+        <div class="item">
+            <span> Sperry Bliss - $9.85</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="Sperry Bliss" data-price="9.85">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <span> Tofu on Top - $10.79</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="Tofu on Top" data-price="10.79">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <span> Wonders of Onio - $8.55</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="Wonders of Onio" data-price="8.55">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <span> The Chili Chamber - $7.97</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="The Chili Chamber" data-price="7.97">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <span> Emerald Greens - $8.55</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="Emerald Greens" data-price="8.55">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <span> The Grove - $8.85</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="The Grove" data-price="8.85">Add to Cart</button>
+        </div>
+
+        <h3>Soups</h3>
+        <div class="item">
+            <span> Fiery Red - $7.65</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="Fiery Red" data-price="7.65">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <span> Silky Forest - $7.35</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="Silky Forest" data-price="7.35">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <span> Orange Hue - $7.45</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="Orange Hue" data-price="7.45">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <span> The Springs - $6.50</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="The Springs" data-price="6.50">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <span> The Golden Room - $8.50</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="The Golden Room" data-price="8.50">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <span> Velvet Meadow - $6.99</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="Velvet Meadow" data-price="6.99">Add to Cart</button>
+        </div>
+
+        <h3>Chips</h3>
+        <div class="item">
+            <span> Maple BBQ - $3.45</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="Maple BBQ" data-price="3.45">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <span> Spicy Mango - $3.99</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="Spicy Mango" data-price="3.99">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <span> Original - $2.99</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="Original" data-price="2.99">Add to Cart</button>
+        </div>
+
+        <h3>Drinks</h3>
+        <div class="item">
+            <span> Ruby Blush - $5.99</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="Ruby Blush" data-price="5.99">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <span> Ah-lo-ha - $4.55</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="Ah-lo-ha" data-price="4.55">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <span> Coco Island - $5.99</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="Coco Island" data-price="5.99">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <span> Purple Delight - $4.55</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="Purple Delight" data-price="4.55">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <span> Peach Sunset - $5.99</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="Peach Sunset" data-price="5.99">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <span> Magical Matcha - $4.99</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="Magical Matcha" data-price="4.99">Add to Cart</button>
+        </div>
+
+        <h3>Deserts</h3>
+        <div class="item">
+            <span> Berry Bash - $5.99</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="Berry Bash" data-price="5.99">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <span> Peach Dream - $4.99</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="Peach Dream" data-price="4.99">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <span> Mango Madness - $6.55</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="Mango Madness" data-price="6.55">Add to Cart</button>
+        </div>
+
+        <h3>Popsicles</h3>
+        <div class="item">
+            <span> Rosy Marble - $2.99</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="Rosy Marble" data-price="3.55">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <span> Day-Dream - $2.99</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="Day-Dream" data-price="2.99">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <span> Jade Lush - $2.99</span>
+            <input type="number" class="quality" min="1" value="1">
+            <button class="to-order" data-food="Jade Lush" data-price="2.99">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="cart">
+        <h2>Cart</h2>
+        <ul id="cart-items"></ul>
+        <p><strong>Total:</strong> $<span id="total">0.00</span></p>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
